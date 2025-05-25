@@ -34,5 +34,3 @@ The `config.properties` file contains basic settings like:
 ```properties
 baseURL=https://www.mobile.bg/
 cookiesAction=accept
-
-This project is ideal for demonstrating skills in UI automation, handling dynamic web content, and real-world data analysis.
