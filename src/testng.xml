@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileSearchTestSuite" parallel="false">
+    <test name="RunHomeSearchAndResultTests">
+        <classes>
+            <class name="Tests.HomePageTest"/>
+            <class name="Tests.SearchPageTest"/>
+        </classes>
+    </test>
+</suite>
