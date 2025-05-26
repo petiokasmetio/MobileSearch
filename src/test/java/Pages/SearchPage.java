@@ -117,4 +117,3 @@ public class SearchPage {
         Thread.sleep(500);
     }
 }
-
