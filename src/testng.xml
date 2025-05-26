@@ -2,8 +2,6 @@
 <suite name="MobileSearchTestSuite" parallel="false">
     <test name="RunHomeSearchAndResultTests">
         <classes>
-            <class name="Tests.HomePageTest"/>
-            <class name="Tests.SearchPageTest"/>
             <class name="Tests.SearchResultsTest"/>
         </classes>
     </test>

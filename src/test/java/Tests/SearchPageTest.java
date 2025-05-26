@@ -1,6 +1,5 @@
 package Tests;
 
-import Pages.HomePage;
 import Pages.SearchPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

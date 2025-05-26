@@ -3,7 +3,6 @@ package Tests;
 import Pages.SearchPage;
 import Pages.SearchResultsPage;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class SearchResultsTest extends BaseClass {
@@ -15,7 +14,10 @@ public class SearchResultsTest extends BaseClass {
         search.selectVWModel();
         search.selectFourWheelCheckboxOption();
         search.clickSearchButtonAfterCriteriaSelection();
+
         SearchResultsPage resultsPage = new SearchResultsPage(driver);
-        resultsPage.analyzeAllSearchResultsAndLog();
+        String outputPath = resultsPage.analyzeAllSearchResultsAndLog();
+
+        System.out.println("Analysis done, file output is saved: " + outputPath);
     }
 }

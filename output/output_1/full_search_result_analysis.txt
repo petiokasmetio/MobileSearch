@@ -1,5 +1,0 @@
-== Results from ad`s ==
-VIP ads: 364
-TOP ads: 59
-Ads without label: 1360
-Total ads: 1783
