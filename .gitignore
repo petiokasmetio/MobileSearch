@@ -1,0 +1,17 @@
+﻿# Java / Maven build output
+target/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Generated output
+output/
+test-output/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
